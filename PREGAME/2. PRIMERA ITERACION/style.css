@@ -79,13 +79,14 @@ body {
     font-size: 60px;
     font-size: 600;/*grosor*/
     text-transform: uppercase;/*mayusculas*/
-
+    color: #fff;
 }
 
 /*vamos afectar todos los parrafos*/
 p {
     margin-bottom: 40px;
     font-size: 18px;
+    color: #fff;
 
 }
 /*afectar el boton de home*/
@@ -101,6 +102,12 @@ p {
     background: #9c27b0;
 
 }
+
+.btn:hover {
+    background: none;
+
+
+}
 .btn-home {
     display: flex;
 
@@ -108,5 +115,54 @@ p {
 
 .btn-home a {
     margin: 0 10px;
+
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;/* en modo movil ponga en columna*/
+    text-align: center;
+
+}
+/*vamos afectar esta clase*/
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+
 
 }
