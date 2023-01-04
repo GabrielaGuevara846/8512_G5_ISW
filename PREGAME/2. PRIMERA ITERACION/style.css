@@ -24,6 +24,26 @@ header {
     justify-content: space-between;
     height: 63px;
     background: #171717; /*es un color mas oscuro */
-    
+    position: fixed; /* posicion en la parte de arriba */
+    width: 100%;
+    z-index: 100;/* se posicione delante */
+
+
+}
+.navbar {
+    display: flex;
+    margin-right: 10px; /* separar los enlaces*/
+
+
+}
+.logo{
+    margin-left: 30px;
+
+}
+.logo a {
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;/*en mayuscula*/
+font-size: 20px;
 
 }
