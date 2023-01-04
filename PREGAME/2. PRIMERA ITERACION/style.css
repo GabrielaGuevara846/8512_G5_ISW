@@ -60,7 +60,7 @@ body {
 
 }
 
-header {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ header {
 
 .header {
     height: 60vh !important;
-    background: url(img/header.jpg) no-repeat center;/*imagen de montañas*/
+    background: url (img/header.jpg) no-repeat center;/*imagen de montañas*/
     background-size: cover; /*cubrir al 100% esa imagen */
 
 }
@@ -76,13 +76,14 @@ header {
 
 .title {
     margin-bottom: 40px;
+    font-size: 60px;
     font-size: 600;/*grosor*/
     text-transform: uppercase;/*mayusculas*/
 
 }
 
 /*vamos afectar todos los parrafos*/
-.p {
+p {
     margin-bottom: 40px;
     font-size: 18px;
 
