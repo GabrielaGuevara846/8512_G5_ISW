@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #646262; /*es un color mas oscuro */
+    background: #8e7638; /*es un color mas oscuro */
     position: fixed; /* posicion en la parte de arriba */
     width: 100%;
     z-index: 100;/* se posicione delante */
