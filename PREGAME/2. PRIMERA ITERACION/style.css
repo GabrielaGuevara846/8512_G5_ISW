@@ -68,7 +68,7 @@ body {
 
 .header {
     height: 60vh !important;
-    background: url (img/header.jpg) no-repeat center;/*imagen de montañas*/
+    background: url ('fondoprincipal.jpg') no-repeat center;/*imagen */
     background-size: cover; /*cubrir al 100% esa imagen */
 
 }
