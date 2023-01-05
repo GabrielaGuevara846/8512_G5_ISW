@@ -86,7 +86,7 @@ body {
 p {
     margin-bottom: 40px;
     font-size: 18px;
-    color: #fff;
+    color: rgb(88, 85, 85);
     padding: 0 100px;
 
 }
@@ -98,7 +98,7 @@ p {
     margin-top: 15px;
     padding: 10px 40 px;
     border: 2px solid #b26cbf;
-    color: #fff;
+    color: rgb(15, 15, 15);
     text-decoration: none;
     background: #bd78c9;
 
@@ -131,7 +131,7 @@ p {
 
 .sau {
     padding: 30px;
-    background: #1f1d1d;
+    background: #50c89c;
 
 }
 
@@ -178,7 +178,7 @@ color: #bf96c6;
 }
 
 .about {
-    background: #171717;
+    background: #db9999;
 }
 
 .price {
