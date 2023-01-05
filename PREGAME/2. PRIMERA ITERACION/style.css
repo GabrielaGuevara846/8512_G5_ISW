@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #171717; /*es un color mas oscuro */
+    background: #646262; /*es un color mas oscuro */
     position: fixed; /* posicion en la parte de arriba */
     width: 100%;
     z-index: 100;/* se posicione delante */
@@ -55,7 +55,7 @@ body {
 }
 
 .navbar a:hover {
-    background: #1e1e1e;
+    background: #4c4949;
 
 
 }
@@ -97,10 +97,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40 px;
-    border: 2px solid #9c27b0;
+    border: 2px solid #b26cbf;
     color: #fff;
     text-decoration: none;
-    background: #9c27b0;
+    background: #bd78c9;
 
 }
 
@@ -160,7 +160,7 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #b86ec5;
     font-size: 2rem;
     margin: 1rem 0;
 
@@ -170,7 +170,7 @@ p {
 
 .box-container .box h3 {
 font-size: 20px;
-color: #9c27b0;
+color: #bf96c6;
 }
 .box-container .box p {
     padding: 0 15px;
