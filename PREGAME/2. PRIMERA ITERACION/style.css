@@ -98,7 +98,7 @@ p {
     margin-top: 15px;
     padding: 10px 40 px;
     border: 2px solid #b26cbf;
-    color: rgb(15, 15, 15);
+    color: rgb(218, 212, 212);
     text-decoration: none;
     background: #bd78c9;
 
@@ -146,10 +146,10 @@ p {
 .box-container .box {
     height: 11rem;
     width: 17rem;
-    background: #101010;
+    background: #f0c4c4;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    box-shadow: 0 .3rem 5rem rgba(235, 15, 15, 0.5);
     margin: 2rem;
 }
 
@@ -191,7 +191,7 @@ color: #bf96c6;
 
 .contact {
     padding-top: 20px;
-    background: #171717;
+    background: #cf7ab4;
     padding-bottom: 0;
 
 }
