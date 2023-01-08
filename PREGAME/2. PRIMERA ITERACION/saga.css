@@ -9,7 +9,6 @@
 body {
     text-align: center; /*centrar texto */
     font-family: sans-serif;
-    background-color: #dbc892;
 
 }
 
@@ -19,8 +18,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 130px;
-    background: #408149; /*es un color mas oscuro */
+    height: 63px;
+    background: #2d9359; /*es un color mas oscuro */
     position: fixed; /* posicion en la parte de arriba */
     width: 100%;
     z-index: 100;/* se posicione delante */
@@ -33,6 +32,17 @@ body {
 
 
 }
+.logo{
+    margin-left: 30px;
+
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);/* color blanco */
+    text-transform: uppercase; /*en mayuscula*/
+    font-size: 20px;
+}
+
 .navbar a {
     display: block;
     padding: 20px 20px;
@@ -45,7 +55,7 @@ body {
 }
 
 .navbar a:hover {
-    background: #4c4949;
+    background: #dd1616;
 
 
 }
@@ -69,7 +79,7 @@ body {
     font-size: 60px;
     font-size: 600;/*grosor*/
     text-transform: uppercase;/*mayusculas*/
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 /*vamos afectar todos los parrafos*/
@@ -181,7 +191,7 @@ color: #bf96c6;
 
 .contact {
     padding-top: 20px;
-    background: #e9aad5;
+    background: #efe0a1;
     padding-bottom: 0;
 
 }
