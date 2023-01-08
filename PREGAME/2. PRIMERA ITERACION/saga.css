@@ -55,7 +55,7 @@ body {
 }
 
 .navbar a:hover {
-    background: #dd1616;
+    background: #16dd7a;
 
 
 }
@@ -149,7 +149,7 @@ p {
     background: #f0c4c4;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(235, 15, 15, 0.5);
+    box-shadow: 0 .3rem 5rem rgba(128, 108, 108, 0.5);
     margin: 2rem;
 }
 
@@ -191,7 +191,7 @@ color: #bf96c6;
 
 .contact {
     padding-top: 20px;
-    background: #efe0a1;
+    background: #d7c76d;
     padding-bottom: 0;
 
 }
