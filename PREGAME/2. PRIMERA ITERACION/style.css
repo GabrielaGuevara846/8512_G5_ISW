@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #8e7638; /*es un color mas oscuro */
+    background: #f3df99; /*es un color mas oscuro */
     position: fixed; /* posicion en la parte de arriba */
     width: 100%;
     z-index: 100;/* se posicione delante */
@@ -131,7 +131,7 @@ p {
 
 .sau {
     padding: 30px;
-    background: #50c89c;
+    background: #adeed6;
 
 }
 
@@ -191,7 +191,7 @@ color: #bf96c6;
 
 .contact {
     padding-top: 20px;
-    background: #cf7ab4;
+    background: #e9aad5;
     padding-bottom: 0;
 
 }
