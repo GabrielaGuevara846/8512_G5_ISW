@@ -5,5 +5,3 @@
     header("location: ../index.php");
 ?>
 
-
-Lider Gabriela Guevara
