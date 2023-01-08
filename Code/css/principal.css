@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -7,7 +7,8 @@
 }
 
 body {
-    text-align: center; /*centrar texto */
+    text-align: center;
+    /*centrar texto */
     font-family: sans-serif;
 
 }
@@ -17,35 +18,45 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 63px;
-    background: #2d9359; /*es un color mas oscuro */
-    position: fixed; /* posicion en la parte de arriba */
+    background: #8e7638;
+    /*es un color mas oscuro */
+    position: fixed;
+    /* posicion en la parte de arriba */
     width: 100%;
-    z-index: 100;/* se posicione delante */
+    z-index: 100;
+    /* se posicione delante */
 
 
 }
 
 .navbar {
     display: flex;
-    margin-right: 10px; /* separar los enlaces*/
+    margin-right: 10px;
+    /* separar los enlaces*/
 
 
 }
-.logo{
-    margin-left: 50px;
+
+.logo {
+    margin-left: 30px;
+
 }
+
 .logo a {
     text-decoration: none;
-    color: rgb(255, 255, 255);/* color blanco */
-    text-transform: uppercase; /*en mayuscula*/
-    font-size: 30px;
+    color: #fff;
+    /* color blanco */
+    text-transform: uppercase;
+    /*en mayuscula*/
+    font-size: 20px;
 }
 
 .navbar a {
     display: block;
     padding: 20px 20px;
     color: #fff;
-    text-decoration: none;/* no decoracion*/
+    text-decoration: none;
+    /* no decoracion*/
     text-transform: uppercase;
     font-size: 20px;
 
@@ -53,7 +64,7 @@ body {
 }
 
 .navbar a:hover {
-    background: #16dd7a;
+    background: #4c4949;
 
 
 }
@@ -66,18 +77,22 @@ body {
 
 .header {
     height: 60vh !important;
-    background: url ('fondoprincipal.jpg') no-repeat center;/*imagen */
-    background-size: cover; /*cubrir al 100% esa imagen */
+    background: url ('fondoprincipal.jpg') no-repeat center;
+    /*imagen */
+    background-size: cover;
+    /*cubrir al 100% esa imagen */
 
 }
-/*vamos a modificar nuestros titulos*/
 
+/*vamos a modificar nuestros titulos*/
 .title {
-    margin-bottom: 60px;
-    font-size: 50px;
-    font-size: 600;/*grosor*/
-    text-transform: uppercase;/*mayusculas*/
-    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-size: 600;
+    /*grosor*/
+    text-transform: uppercase;
+    /*mayusculas*/
+    color: #fff;
 }
 
 /*vamos afectar todos los parrafos*/
@@ -88,15 +103,15 @@ p {
     padding: 0 100px;
 
 }
+
 /*afectar el boton de home*/
 /*primero creamos un boton*/
-
 .btn {
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 15px;
     padding: 10px 40 px;
     border: 2px solid #b26cbf;
-    color: rgb(218, 212, 212);
+    color: rgb(15, 15, 15);
     text-decoration: none;
     background: #bd78c9;
 
@@ -107,6 +122,7 @@ p {
 
 
 }
+
 .btn-home {
     display: flex;
 
@@ -118,37 +134,37 @@ p {
 }
 
 .content {
-    height: 100vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .sau {
     padding: 30px;
-    background: #adeed6;
+    background: #50c89c;
 
 }
 
 .box-container {
     display: flex;
-    justify-content: left;
-    flex-wrap: wrap;/* en modo movil ponga en columna*/
+    justify-content: center;
+    flex-wrap: wrap;
+    /* en modo movil ponga en columna*/
     text-align: center;
 
 }
+
 /*vamos afectar esta clase*/
 .box-container .box {
-    height: 20rem;
-    width: 20rem;
-    background: #f0c4c4;
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 40rem rgba(128, 108, 108, 0.5);
-    margin: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
 }
 
 .box-container .box i {
@@ -161,15 +177,13 @@ p {
     background: #b86ec5;
     font-size: 2rem;
     margin: 1rem 0;
-
-
-
 }
 
 .box-container .box h3 {
-font-size: 20px;
-color: #bf96c6;
+    font-size: 20px;
+    color: #bf96c6;
 }
+
 .box-container .box p {
     padding: 0 15px;
     font-size: 16px;
@@ -189,7 +203,7 @@ color: #bf96c6;
 
 .contact {
     padding-top: 20px;
-    background: #d7c76d;
+    background: #171717;
     padding-bottom: 0;
 
 }
@@ -200,10 +214,11 @@ color: #bf96c6;
         font-size: 40px;
 
     }
-    
+
     .sau {
         height: 120;
     }
+
     .navbar {
         display: none;
     }
