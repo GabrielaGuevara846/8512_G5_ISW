@@ -17,7 +17,7 @@
         <nav class="navbar">
             <a href="#">Inicio</a>
             <a href="#">Nosotros</a>
-            <a href="#">Contacto</a>
+            <a href="#">Contactos</a>
             <a href="#">Productos</a>
             <a href="#">Precio</a>
         </nav>
@@ -94,7 +94,7 @@
         <p>6168499489</p>
         
         <figure class="map">
-            <img src="../Code/recursos/mapa.png" height="220px" width="100%" alt="mapa">
+            <img src="../Code/img/mapa.png" height="220px" width="100%" alt="mapa">
         </figure>
 
     </section>
