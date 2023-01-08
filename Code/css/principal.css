@@ -12,6 +12,7 @@ header {
 }
 
 .logo {
+    margin: 15px 0;
     width: 300px;
 }
 
@@ -45,7 +46,7 @@ nav ul {
 nav ul li a {
     color: #fff;
     padding: 15px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     line-height: 40px;
     text-decoration: none;
