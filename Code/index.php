@@ -17,7 +17,7 @@
         <nav class="navbar">
             <a href="#">Inicio</a>
             <a href="#">Nosotros</a>
-            <a href="#">Contacto</a>
+            <a href="#">Contactos</a>
             <a href="#">Productos</a>
             <a href="#">Precio</a>
         </nav>
