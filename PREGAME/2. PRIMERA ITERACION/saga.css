@@ -33,14 +33,14 @@ body {
 
 }
 .logo{
-    margin-left: 30px;
+    margin-left: 50px;
 
 }
 .logo a {
     text-decoration: none;
     color: rgb(255, 255, 255);/* color blanco */
     text-transform: uppercase; /*en mayuscula*/
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .navbar a {
@@ -75,8 +75,8 @@ body {
 /*vamos a modificar nuestros titulos*/
 
 .title {
-    margin-bottom: 40px;
-    font-size: 60px;
+    margin-bottom: 60px;
+    font-size: 50px;
     font-size: 600;/*grosor*/
     text-transform: uppercase;/*mayusculas*/
     color: rgb(255, 255, 255);
@@ -95,7 +95,7 @@ p {
 
 .btn {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 50px;
     padding: 10px 40 px;
     border: 2px solid #b26cbf;
     color: rgb(218, 212, 212);
@@ -120,7 +120,7 @@ p {
 }
 
 .content {
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,20 +137,20 @@ p {
 
 .box-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;/* en modo movil ponga en columna*/
     text-align: center;
 
 }
 /*vamos afectar esta clase*/
 .box-container .box {
-    height: 11rem;
-    width: 17rem;
+    height: 20rem;
+    width: 20rem;
     background: #f0c4c4;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(128, 108, 108, 0.5);
-    margin: 2rem;
+    box-shadow: 0 .3rem 40rem rgba(128, 108, 108, 0.5);
+    margin: 1rem;
 }
 
 .box-container .box i {
