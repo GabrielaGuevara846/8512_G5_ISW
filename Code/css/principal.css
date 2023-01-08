@@ -21,6 +21,10 @@ header {
     top: 15px;
 }
 
+.lk_ico_nav_principal {
+    text-decoration: none;
+}
+
 .ico_nav_principal {
     margin-left: 15px;
     width: 28px;
