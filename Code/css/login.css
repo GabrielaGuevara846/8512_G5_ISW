@@ -60,23 +60,6 @@
     cursor: pointer;
   }
 
-  .seccion_formulario p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-
-  .seccion_formulario p a {
-    color: #282828;
-    text-decoration: none;
-  }
-  
-  .seccion_formulario p a:hover {
-    color: #282828;
-    text-decoration: underline;
-  }
-
   ::placeholder {
     color: #313e3f;
   }
