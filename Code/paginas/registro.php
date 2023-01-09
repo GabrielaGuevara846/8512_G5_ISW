@@ -12,10 +12,16 @@
   <section class="seccion_formulario">
     <form method="post">
       <h4> Registro</h4>
-      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-      <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-      <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-      <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Cédula de identidad">
+      <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombres">
+      <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Correo electrónico">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Fecha de nacimiento">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Teléfono">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Sexo">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Enlace de ubicación">
+      <input class="controls" type="email" name="correo" id="correo" placeholder="Descripción de ubicación">
+      <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
     
       <input class="botons" type="submit" value="Registrar">
       <p><a href="#">¿Ya tengo Cuenta?</a></p>
