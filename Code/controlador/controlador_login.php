@@ -26,5 +26,3 @@
         }
     }
 ?>
-
-Si se puede modificar jaja
