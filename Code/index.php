@@ -12,9 +12,9 @@
             <img class="logo" src="../Code/img/logo2.jpg" alt="Saga Nutrition">
             <div class="nav_principal">
                 <a class="lk_ico_nav_principal" href="../Code/paginas/login.php">
-                    <img class="ico_nav_principal" src="../Code/img/usuario.jpg" alt="Saga Nutrition">
+                    <img class="ico_nav_principal" src="../Code/img/usuario.jpg" alt="Usuario">
                 </a>
-                <img class="ico_nav_principal" src="../Code/img/carrito.jpg" alt="Saga Nutrition">
+                <img class="ico_nav_principal" src="../Code/img/carrito.jpg" alt="Carrito">
             <div>
         </header>
 
@@ -30,7 +30,10 @@
 
         <main>
             <section>
-                <div class="">
+                <div class="banner">
+                    <h1>Saga Nutrition</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam necessitatibus odio quisquam reprehenderit quas, obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo libero vero quia asperiores similique dicta.</p>
+                    <img class="fundadores" src="../Code/img/fundadores.png" alt="Fundadores">
                 </div>
             </section>
         </main>

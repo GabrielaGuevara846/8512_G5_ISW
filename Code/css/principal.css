@@ -51,3 +51,31 @@ nav ul li a {
     line-height: 40px;
     text-decoration: none;
 }
+
+.banner {
+    height: 280px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6ddd4;
+}
+
+h1 {
+    color: #313e3f;
+    font-size: 1.8rem;
+}
+
+.banner p {
+    padding: 20px 20% 0 20%;
+    color: #282828;
+    font-size: 1.6rem;
+}
+
+.fundadores {
+    position: relative;
+    right: 168.75px;
+    top: -10px;
+    width: 168.75px;
+    height: 300px;
+}
