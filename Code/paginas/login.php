@@ -14,8 +14,11 @@
         <input type="text" class="controls" name="correo" placeholder="Correo electrónico">
         <input type="password" class="controls" name="password" placeholder="Contraseña">
         <input type="submit" class="botons" name="bt_iniciar_sesion" value="Iniciar sesión">
-    </form>   
-      <?php
+    </form>
+    
+    <a href="./paginas/registro.php">Registrarme</a>
+    
+    <?php
         include "../modelo/conexion.php";
         include "../controlador/controlador_login.php";
     ?>
