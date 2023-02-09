@@ -115,7 +115,7 @@ body main .cita {
     body main section .agendar_cita {
         display: flex;
         flex-flow: row nowrap;
-        margin: 30px 0 60px 0;
+        margin-top: 30px;
     }
 
         body main section div .im_agendar_cita {
@@ -148,7 +148,30 @@ body main .cita {
 
 /* ---------->>> Otros Servicios <<<-----------*/
 
-body main .otros_servicios {
+body main .servicios {
     padding: 80px 80px 0 80px;
     text-align: center;
 }
+
+    body main section .servicios_adicionales {
+        display:flex;
+        flex-flow: row wrap;
+        gap: 30px;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+        body main section div .a_servicios_adicionales {
+            align-items: center;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+        }
+
+            body main section div a .titulo_a_servicios_adicionales {
+                background-color: #E3E3E3;
+                display: grid;
+                height: 100px;
+                place-items: center;
+                width: 100%;
+            }
