@@ -19,9 +19,21 @@ h2 {
     font-size: 1.65rem;
 }
 
-p {
+h3 {
     color: #282828;
     font-size: 1.6rem;
+}
+
+p {
+    color: #282828;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 /* ---------------------------------*/ 
@@ -67,13 +79,9 @@ nav ul {
     list-style: none;
 }
 
-nav ul li a {
-    color: #fff;
+nav ul li .enlace {
     padding: 15px;
-    font-size: 1.5rem;
-    font-weight: bold;
     line-height: 40px;
-    text-decoration: none;
 }
 
 .banner {
@@ -100,7 +108,7 @@ nav ul li a {
 /* ---------->>> Agendar cita <<<-----------*/
 
 body main .cita {
-    padding: 80px 80px;
+    padding: 80px 80px 0 80px;
     text-align: center;
 }
 
@@ -110,11 +118,37 @@ body main .cita {
         margin: 30px 0 60px 0;
     }
 
-        body main section div .im_cita {
-            flex-grow: 2;
+        body main section div .im_agendar_cita {
+            width: 55%;
         }
 
-        body main section div .texto_agendar_cita {
+        body main section div .div_agendar_cita {
+            align-items: center;
             background-color: #E3E3E3;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            width: 45%;
         }
 
+            body main section div div .h3_agendar_cita {
+                margin-bottom: 30px;
+            }
+
+            body main section div div .parrafo_agendar_cita {
+                margin: 0 60px 50px 60px;
+                text-align: left;
+            }
+
+            body main section div div .a_agendar_cita {
+                background-color: #91A66B;
+                border-radius: 10px;
+                padding: 15px 50px;
+            }
+
+/* ---------->>> Otros Servicios <<<-----------*/
+
+body main .otros_servicios {
+    padding: 80px 80px 0 80px;
+    text-align: center;
+}
