@@ -192,3 +192,7 @@ body .pie_pagina {
         margin-bottom: 30px;
         width: 300px;
     }
+
+    body footer .parrafo_pie_pagina {
+        font-weight: bold;
+    }
