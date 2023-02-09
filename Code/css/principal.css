@@ -179,7 +179,16 @@ body main .servicios {
 /* ---------->>> Pie <<<-----------*/
 
 body .pie_pagina {
+    align-items: center;
     background-color: #e6ddd4;
+    display: flex;
+    flex-flow: column nowrap;
     height: 200px;
+    justify-content: center;
     margin-top: 80px;
 }
+
+    body footer .im_logo_pie_pagina {
+        margin-bottom: 30px;
+        width: 300px;
+    }
