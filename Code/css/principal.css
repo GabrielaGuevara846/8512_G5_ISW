@@ -85,12 +85,12 @@ nav ul li .enlace {
 }
 
 .banner {
-    height: 280px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
     align-items: center;
     background-color: #e6ddd4;
+    display: flex;
+    flex-flow: column wrap;
+    height: 280px;
+    justify-content: center;
 }
 
     .parrafo_banner {
@@ -175,3 +175,9 @@ body main .servicios {
                 place-items: center;
                 width: 100%;
             }
+
+/* ---------->>> Pie <<<-----------*/
+
+body .pie_pagina {
+    background-color: #e6ddd4;
+}
