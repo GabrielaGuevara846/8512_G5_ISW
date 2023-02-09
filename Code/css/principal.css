@@ -180,5 +180,6 @@ body main .servicios {
 
 body .pie_pagina {
     background-color: #e6ddd4;
+    height: 200px;
     margin-top: 80px;
 }
