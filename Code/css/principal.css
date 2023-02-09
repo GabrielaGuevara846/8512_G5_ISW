@@ -1,9 +1,33 @@
+/* -----------------------------------*/ 
+/* ---------->>> Global <<<-----------*/ 
+/* -----------------------------------*/ 
+
 * {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 62.5%;
 }
+
+h1 {
+    color: #313e3f;
+    font-size: 1.8rem;
+}
+
+h2 {
+    color: #282828;
+    font-size: 1.65rem;
+}
+
+p {
+    color: #282828;
+    font-size: 1.6rem;
+}
+
+/* ---------------------------------*/ 
+/* ---------->>> Home <<<-----------*/ 
+/* ---------------------------------*/ 
+
 
 header {
     display: flex;
@@ -46,7 +70,7 @@ nav ul {
 nav ul li a {
     color: #fff;
     padding: 15px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 40px;
     text-decoration: none;
@@ -61,21 +85,36 @@ nav ul li a {
     background-color: #e6ddd4;
 }
 
-h1 {
-    color: #313e3f;
-    font-size: 1.8rem;
-}
+    .parrafo_banner {
+        padding: 20px 20% 0 20%;
+    }
 
-.banner p {
-    padding: 20px 20% 0 20%;
-    color: #282828;
-    font-size: 1.6rem;
-}
-
-.fundadores {
+.im_fundadores {
     position: relative;
     right: 168.75px;
     top: -10px;
     width: 168.75px;
     height: 300px;
 }
+
+/* ---------->>> Agendar cita <<<-----------*/
+
+body main .cita {
+    padding: 80px 80px;
+    text-align: center;
+}
+
+    body main section .agendar_cita {
+        display: flex;
+        flex-flow: row nowrap;
+        margin: 30px 0 60px 0;
+    }
+
+        body main section div .im_cita {
+            flex-grow: 2;
+        }
+
+        body main section div .texto_agendar_cita {
+            background-color: #E3E3E3;
+        }
+
