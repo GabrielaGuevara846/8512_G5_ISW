@@ -24,7 +24,7 @@
       <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
     
       <input class="botons" type="submit" value="Registrar">
-      <p><a href="#">¿Ya tengo Cuenta?</a></p>
+      <p><a href="./login.php">¿Ya tengo Cuenta?</a></p>
     </form>
   </section>
 </body>

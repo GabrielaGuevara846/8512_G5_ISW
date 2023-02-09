@@ -16,7 +16,7 @@
         <input type="submit" class="botons" name="bt_iniciar_sesion" value="Iniciar sesión">
     </form>
     
-    <a href="./paginas/registro.php">Registrarme</a>
+    <a href="./registro.php">Registrarme</a>
     
     <?php
         include "../modelo/conexion.php";
