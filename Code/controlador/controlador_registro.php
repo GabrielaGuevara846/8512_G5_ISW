@@ -15,14 +15,14 @@
             $correo = $_POST["correo"];
             $password = password_hash($_POST["password"]);
 
-            $stmt = $conn->prepare("INSERT INTO usuario (cedula_identidad,
+            $stmt = $conexion->prepare("INSERT INTO usuario (cedula_identidad,
                                                          nombres,
                                                          apellidos,
                                                          correo_electronico,
                                                          contraseña) VALUES (?, ?, ?, ?, ?)");
             $stmt->bind_param($cedula, $nombre, $apellido, $correo, $password);
             $stmt->execute();
-            $conn->close();
+            $conexion->close();
 
             header("location: ./login.php");
         }
