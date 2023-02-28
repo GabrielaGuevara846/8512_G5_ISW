@@ -13,18 +13,18 @@
             $nombre = $_POST["nombre"];
             $apellido = $_POST["apellido"];
             $correo = $_POST["correo"];
-            $password = password_hash($_POST["password"]);
+            $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
             $stmt = $conexion->prepare("INSERT INTO usuario (cedula_identidad,
                                                          nombres,
                                                          apellidos,
                                                          correo_electronico,
                                                          contraseña) VALUES (?, ?, ?, ?, ?)");
-            $stmt->bind_param($cedula, $nombre, $apellido, $correo, $password);
+            $stmt->bind_param("sssss", $cedula, $nombre, $apellido, $correo, $password);
             $stmt->execute();
             $conexion->close();
-
-            header("location: ./login.php");
+            
+            echo "Usuario registrado con éxito";
         }
         else {
             echo "Campos vacíos";
