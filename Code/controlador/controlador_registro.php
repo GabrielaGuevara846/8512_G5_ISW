@@ -21,10 +21,10 @@
                                                          correo_electronico,
                                                          contraseña) VALUES (?, ?, ?, ?, ?)");
             $stmt->bind_param($cedula, $nombre, $apellido, $correo, $password);
-            
             $stmt->execute();
-
             $conn->close();
+
+            header("location: ./login.php");
         }
         else {
             echo "Campos vacíos";
