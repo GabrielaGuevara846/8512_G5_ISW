@@ -18,6 +18,7 @@ Empresa Saga Nutrition.
 
 
 Primer requisito completado y cargado en el repositorio de GitHub en cada una de las capetas correspondientes. 
+
 Segundo, tercero, cuarto y quinto requisito completado con la documentación en cada una de las carpetas en el repositorio de GitHub.
 
 Proyecto del aplicativo web para la empresa de SAGA NUTRITION terminado y aceptado de manera satisfecha por el cliente y dueño de la empresa.
