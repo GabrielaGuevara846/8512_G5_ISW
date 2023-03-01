@@ -16,8 +16,8 @@
       <input class="controls" type="text" name="nombre" placeholder="Nombres">
       <input class="controls" type="text" name="apellido" placeholder="Apellidos">
       <select class="controls" name="sexo">
-        <option value="2">Femenino</option>
-        <option value="1">Masculino</option>        
+        <option value="2">Mujer</option>
+        <option value="1">Hombre</option>        
       </select>
       <input class="controls" type="email" name="correo" placeholder="Correo electrónico">
       <input class="controls" type="password" name="password" placeholder="Contraseña">
