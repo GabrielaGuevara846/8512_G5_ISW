@@ -24,4 +24,7 @@ Segundo, tercero, cuarto y quinto requisito completado con la documentación en 
 Proyecto del aplicativo web para la empresa de SAGA NUTRITION terminado y aceptado de manera satisfactoria por el cliente y dueño de la empresa.
 
 Nota: En caso de realizar cambios, se subira nuevos documentos.
-¡Saludos!
+
+¡Saludos! ¡Hasta la próxima!
+
+Att: Grupo 5 :) 
